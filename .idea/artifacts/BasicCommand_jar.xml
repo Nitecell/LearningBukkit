@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BasicCommand:jar">
+    <output-path>$USER_HOME$/Desktop/Testing/plugins</output-path>
+    <root id="archive" name="BasicCommand.jar">
+      <element id="module-output" name="BasicCommand" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/BuildTools/spigot-1.15.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

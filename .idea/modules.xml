@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BasicCommand/BasicCommand.iml" filepath="$PROJECT_DIR$/BasicCommand/BasicCommand.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearningBukkit.iml" filepath="$PROJECT_DIR$/LearningBukkit.iml" />
+    </modules>
+  </component>
+</project>
