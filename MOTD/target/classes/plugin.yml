@@ -1,5 +1,5 @@
 name: MOTD
-version: ${project.version}
+version: 1.0-SNAPSHOT
 main: com.nitecell.motd.MOTD
 api-version: 1.13
 authors: [Nitecell]
