@@ -1,0 +1,17 @@
+name: Worldstar
+version: 1.0-SNAPSHOT
+main: com.nitecell.worldstar.Worldstar
+api-version: 1.13
+authors: [Nitecell]
+description: Prank Plugin (Learning)
+
+commands:
+  fakeop:
+    usage: /<command>
+    description: Fake OP (Learning)
+  fakejoin:
+    usage: /<command>
+    description: Fake Join (Learning)
+  fakeleave:
+    usage: /<command>
+    description: Fake Leave (Learning)

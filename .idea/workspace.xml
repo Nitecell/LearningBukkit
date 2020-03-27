@@ -2,28 +2,18 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="BasicCommand:jar" />
+      <artifact name="Worldstar:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4241754a-7b58-467a-98c5-11a42101048e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_15_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_15_2_R0_1_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomInventory/CustomInventory.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomInventory/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomInventory/src/main/java/com/nitecell/custominventory/CustomInventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomInventory/src/main/resources/plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Healer/Healer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Healer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Healer/src/main/java/com/nitecell/healer/Healer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Healer/src/main/resources/plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Worldstar_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Worldstar/Worldstar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Worldstar/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Worldstar/src/main/java/com/nitecell/worldstar/Worldstar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Worldstar/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -140,10 +130,37 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="Worldstar build" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Worldstar" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="JAR Application.Spigot" />
       <item itemvalue="Maven.CustomInventory build" />
       <item itemvalue="Maven.Healer build" />
+      <item itemvalue="Maven.Worldstar build" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -157,7 +174,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585336770205</updated>
       <workItem from="1585336772110" duration="1747000" />
-      <workItem from="1585338529886" duration="3664000" />
+      <workItem from="1585338529886" duration="6114000" />
     </task>
     <servers />
   </component>
@@ -169,10 +186,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Plugins/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585338513906" />
-    <state x="552" y="178" key="#Project_Structure" timestamp="1585342195851">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1585347366861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585342195851" />
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585347366861" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585339199948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -181,42 +198,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585342183485" />
-    <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1585342191656">
+    <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1585347361824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585342191656" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1585342211530">
+    <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585347361824" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1585347530091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585342211530" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1585342211530">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585347530091" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1585347530091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585342211530" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1585342211530">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585347530091" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1585347530091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585342211530" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1585342211530">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585347530091" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1585347530091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585342211530" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1585342211429">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585347530091" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1585347530091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585342211429" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1585342211428">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585347530091" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1585347530091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585342211428" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1585342211428">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585347530091" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1585347530091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585342211428" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1585342211429">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585347530091" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1585347530091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585342211429" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585347530091" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1585338405036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -225,10 +242,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585336773471" />
-    <state x="342" y="140" key="new project wizard" timestamp="1585341236037">
+    <state x="342" y="140" key="new project wizard" timestamp="1585345872301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="140" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585341236037" />
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585345872301" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585338474275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

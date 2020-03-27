@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Healer" />
         <module name="CustomInventory" />
+        <module name="Healer" />
+        <module name="Worldstar" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="CustomInventory" target="1.8" />
       <module name="Healer" target="1.8" />
+      <module name="Worldstar" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

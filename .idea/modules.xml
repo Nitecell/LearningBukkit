@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/CustomInventory/CustomInventory.iml" filepath="$PROJECT_DIR$/CustomInventory/CustomInventory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Healer/Healer.iml" filepath="$PROJECT_DIR$/Healer/Healer.iml" />
       <module fileurl="file://$PROJECT_DIR$/LearningBukkit.iml" filepath="$PROJECT_DIR$/LearningBukkit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Worldstar/Worldstar.iml" filepath="$PROJECT_DIR$/Worldstar/Worldstar.iml" />
     </modules>
   </component>
 </project>
