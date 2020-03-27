@@ -1,0 +1,6 @@
+name: CustomInventory
+version: ${project.version}
+main: com.nitecell.custominventory.CustomInventory
+api-version: 1.13
+authors: [Nitecell]
+description: Custom Inventory Plugins (Learning)

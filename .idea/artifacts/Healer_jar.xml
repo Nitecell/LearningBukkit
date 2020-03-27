@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Healer:jar">
+    <output-path>$USER_HOME$/Desktop/Testing/plugins</output-path>
+    <root id="archive" name="Healer.jar">
+      <element id="module-output" name="Healer" />
+    </root>
+  </artifact>
+</component>
