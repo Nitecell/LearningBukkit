@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MOTD:jar">
+    <output-path>$USER_HOME$/Desktop/Testing/plugins</output-path>
+    <root id="archive" name="MOTD.jar">
+      <element id="module-output" name="MOTD" />
+    </root>
+  </artifact>
+</component>

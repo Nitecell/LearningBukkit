@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/CustomInventory/pom.xml" />
         <option value="$PROJECT_DIR$/Healer/pom.xml" />
         <option value="$PROJECT_DIR$/Worldstar/pom.xml" />
+        <option value="$PROJECT_DIR$/MOTD/pom.xml" />
       </list>
     </option>
   </component>

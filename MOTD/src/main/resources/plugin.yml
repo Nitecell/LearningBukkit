@@ -1,0 +1,6 @@
+name: MOTD
+version: ${project.version}
+main: com.nitecell.motd.MOTD
+api-version: 1.13
+authors: [Nitecell]
+description: Simple MOTD Plugin that is Not Configurable
