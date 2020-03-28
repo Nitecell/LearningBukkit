@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="4" />
+  </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Teleport:jar" />
+      <artifact name="Kit:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4241754a-7b58-467a-98c5-11a42101048e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Teleport_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Teleport/Teleport.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Teleport/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Teleport/src/main/java/com/nitecell/teleport/Teleport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Teleport/src/main/resources/plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Kit_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Vault.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/VaultAPI_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kit/Kit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kit/src/main/java/com/nitecell/kit/Kit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kit/src/main/resources/plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCore/TestCore.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCore/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCore/src/main/java/com/nitecell/testcore/TestCore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCore/src/main/java/com/nitecell/testcore/commands/HealCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCore/src/main/resources/plugin.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOTD/src/main/java/com/nitecell/motd/MOTD.java" beforeDir="false" afterPath="$PROJECT_DIR$/MOTD/src/main/java/com/nitecell/motd/MOTD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOTD/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/MOTD/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOTD/target/classes/com/nitecell/motd/MOTD.class" beforeDir="false" afterPath="$PROJECT_DIR$/MOTD/target/classes/com/nitecell/motd/MOTD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOTD/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/MOTD/target/classes/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teleport/target/classes/com/nitecell/teleport/Teleport.class" beforeDir="false" afterPath="$PROJECT_DIR$/Teleport/target/classes/com/nitecell/teleport/Teleport.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +53,8 @@
         <option name="downloadDocsAutomatically" value="true" />
         <option name="downloadSourcesAutomatically" value="true" />
         <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -63,11 +72,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Testing/plugins" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Vault.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -139,6 +148,32 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="Kit build" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Kit" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="MOTD build" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -191,6 +226,32 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="TestCore build" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/TestCore" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="Worldstar build" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -224,6 +285,8 @@
       <item itemvalue="Maven.Worldstar build" />
       <item itemvalue="Maven.MOTD build" />
       <item itemvalue="Maven.Teleport build" />
+      <item itemvalue="Maven.TestCore build" />
+      <item itemvalue="Maven.Kit build" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -238,7 +301,7 @@
       <updated>1585336770205</updated>
       <workItem from="1585336772110" duration="1747000" />
       <workItem from="1585338529886" duration="8426000" />
-      <workItem from="1585352424481" duration="3574000" />
+      <workItem from="1585352424481" duration="8890000" />
     </task>
     <servers />
   </component>
@@ -250,10 +313,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Plugins/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585338513906" />
-    <state x="552" y="178" key="#Project_Structure" timestamp="1585360235401">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1585362753917">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585360235401" />
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585362753917" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585339199948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -266,54 +329,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585342183485" />
-    <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1585360234723">
+    <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1585365324158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585360234723" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1585360666197">
+    <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585365324158" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1585366094581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585360666197" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1585360666197">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585366094581" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1585366094581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585360666197" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1585360666197">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585366094581" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1585366094581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585360666197" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1585360666197">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585366094581" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1585366094581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585360666197" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1585360666197">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585366094581" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1585366094446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585360666197" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1585360666197">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585366094446" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1585366094446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585360666197" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1585360666197">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585366094446" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1585366094446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585360666197" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1585360666197">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585366094446" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1585366094446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585360666197" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1585352489885">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585366094446" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1585365331436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585352489885" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585365331436" />
     <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585336773471">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585336773471" />
-    <state x="342" y="140" key="new project wizard" timestamp="1585358245779">
+    <state x="342" y="140" key="new project wizard" timestamp="1585361894581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="140" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585358245779" />
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585361894581" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585338474275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

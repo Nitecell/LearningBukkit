@@ -1,0 +1,16 @@
+name: Kit
+version: 1.0-SNAPSHOT
+main: com.nitecell.kit.Kit
+api-version: 1.13
+authors: [Nitecell]
+description: Kit Command
+depend: [Vault]
+
+commands:
+  clear:
+    usage: /<command>
+    aliases: [ci]
+    description: Clear Inventory
+  kit:
+    usage: /<command>
+    description: Kit Command

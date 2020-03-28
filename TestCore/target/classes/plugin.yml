@@ -1,0 +1,6 @@
+name: TestCore
+version: 1.0-SNAPSHOT
+main: com.nitecell.testcore.TestCore
+api-version: 1.13
+authors: [Nitecell]
+description: Test Core that I am making while learning plugin development. Do not use for actual servers!
