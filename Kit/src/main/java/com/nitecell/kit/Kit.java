@@ -13,6 +13,8 @@ import org.bukkit.inventory.PlayerInventory;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import java.util.ArrayList;
+
 public final class Kit extends JavaPlugin {
 
     private static Economy econ = null;
@@ -38,22 +40,36 @@ public final class Kit extends JavaPlugin {
         return econ != null;
     }
 
+    ArrayList<Player> cooldown = new ArrayList<Player>();
+
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
         if (!(sender instanceof Player)) {
             sender.sendMessage(ChatColor.RED + "This command cannot be executed by console.");
             return true;
         }
 
-        Player p = (Player) sender;
+        final Player p = (Player) sender;
         PlayerInventory pi = p.getInventory();
 
         if (cmd.getName().equalsIgnoreCase("kit")) {
+            if (cooldown.contains(p)) {
+                p.sendMessage(ChatColor.RED + "You cannot get another kit at the moment. Cooldown!");
+                return true;
+            }
             EconomyResponse r = econ.withdrawPlayer(p.getName(), 10);
             if (r.transactionSuccess()) {
                 pi.addItem(new ItemStack(Material.DIAMOND_SWORD, 1));
                 pi.addItem(new ItemStack(Material.DIAMOND_PICKAXE, 1));
                 pi.addItem(new ItemStack(Material.COOKED_BEEF, 16));
                 p.sendMessage(ChatColor.GREEN + "Kit has been given!");
+                cooldown.add(p);
+                Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
+                    @Override
+                    public void run() {
+                        cooldown.remove(p);
+
+                    }
+                }, 100);
                 return true;
             } else {
                 p.sendMessage(ChatColor.RED + "Insufficient Funds.");

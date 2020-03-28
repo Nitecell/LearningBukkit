@@ -5,24 +5,15 @@
   </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Announcements:jar" />
+      <artifact name="Kit:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4241754a-7b58-467a-98c5-11a42101048e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Announcements/src/main/java/com/nitecell/announcements/SettingsManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Console/Console.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Console/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Console/src/main/java/com/nitecell/console/Console.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Console/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Announcements/src/main/java/com/nitecell/announcements/Announcements.java" beforeDir="false" afterPath="$PROJECT_DIR$/Announcements/src/main/java/com/nitecell/announcements/Announcements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Announcements/target/classes/com/nitecell/announcements/Announcements$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Announcements/target/classes/com/nitecell/announcements/Announcements$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Announcements/target/classes/com/nitecell/announcements/Announcements.class" beforeDir="false" afterPath="$PROJECT_DIR$/Announcements/target/classes/com/nitecell/announcements/Announcements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kit/src/main/java/com/nitecell/kit/Kit.java" beforeDir="false" afterPath="$PROJECT_DIR$/Kit/src/main/java/com/nitecell/kit/Kit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kit/target/classes/com/nitecell/kit/Kit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kit/target/classes/plugin.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -404,7 +395,7 @@
       <updated>1585336770205</updated>
       <workItem from="1585336772110" duration="1747000" />
       <workItem from="1585338529886" duration="8426000" />
-      <workItem from="1585352424481" duration="15656000" />
+      <workItem from="1585352424481" duration="16285000" />
     </task>
     <servers />
   </component>
@@ -436,38 +427,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585398596011" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1585398608097">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1585399120482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585398608097" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1585398608097">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585399120482" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1585399120482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585398608097" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1585398608097">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585399120482" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1585399120482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585398608097" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1585398608097">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585399120482" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1585399120482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585398608097" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1585398607982">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585399120482" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1585399120370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585398607982" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1585398607982">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585399120370" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1585399120370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585398607982" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1585398607982">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585399120370" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1585399120370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585398607982" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1585398607982">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585399120370" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1585399120370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585398607982" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585399120370" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1585365331436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
