@@ -37,6 +37,10 @@ public final class MOTD extends JavaPlugin implements Listener {
             return true;
         }
         if (cmd.getName().equalsIgnoreCase("setmotd")) {
+            if (!sender.hasPermission("motd.set")) {
+                sender.sendMessage(ChatColor.RED + "You do not have permission to execute this command.");
+                return true;
+            }
             if (args.length == 0) {
                 sender.sendMessage(ChatColor.RED + "Not enough arguments.");
                 return true;

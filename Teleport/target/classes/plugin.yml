@@ -1,0 +1,15 @@
+name: Teleport
+version: 1.0-SNAPSHOT
+main: com.nitecell.teleport.Teleport
+api-version: 1.13
+authors: [Nitecell]
+description: Teleport Plugin (Learning)
+
+commands:
+  teleport:
+    usage: /<command>
+    aliases: [tp]
+    description: Teleport
+  setspawn:
+    usage: /<command>
+    description: Sets the Spawn of the World

@@ -12,3 +12,8 @@ commands:
   setmotd:
     usage: /<command>
     description: Set the MOTD of the server.
+
+permissions:
+  motd.set:
+    description: Uset he SetMOTD Command to change the MOTD.
+    default: op

@@ -6,16 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="MOTD" />
+        <module name="Worldstar" />
         <module name="CustomInventory" />
         <module name="Healer" />
-        <module name="Worldstar" />
+        <module name="MOTD" />
+        <module name="Teleport" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="CustomInventory" target="1.8" />
       <module name="Healer" target="1.8" />
       <module name="MOTD" target="1.8" />
+      <module name="Teleport" target="1.8" />
       <module name="Worldstar" target="1.8" />
     </bytecodeTargetLevel>
   </component>
