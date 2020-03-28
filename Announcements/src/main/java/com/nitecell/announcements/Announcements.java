@@ -4,28 +4,20 @@ import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
-import org.bukkit.configuration.file.FileConfiguration;
-import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
-
-import java.io.File;
 
 public final class Announcements extends JavaPlugin {
 
-    FileConfiguration config;
-    File cfile;
+    SettingsManager settings = SettingsManager.getInstance();
 
     @Override
     public void onEnable() {
-        config = getConfig();
-        config.options().copyDefaults(true);
-        saveConfig();
-        cfile = new File(getDataFolder(), "config.yml");
+        SettingsManager.getInstance().setup(this);
 
         Bukkit.getServer().getScheduler().scheduleSyncRepeatingTask(this, new Runnable() {
             @Override
             public void run() {
-                Bukkit.getServer().broadcastMessage(ChatColor.GREEN + config.getString("announcement"));
+                Bukkit.getServer().broadcastMessage(ChatColor.GREEN + settings.getConfig().getString("announcement"));
 
             }
         }, 20, 1000);
@@ -33,14 +25,9 @@ public final class Announcements extends JavaPlugin {
     }
 
     @Override
-    public void onDisable() {
-
-    }
-
-    @Override
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
         if (cmd.getName().equalsIgnoreCase("announcements-reload")) {
-            config = YamlConfiguration.loadConfiguration(cfile);
+            settings.reloadConfig();
             sender.sendMessage(ChatColor.GREEN + "Announcements Reloaded.");
             return true;
         }

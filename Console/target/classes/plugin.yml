@@ -1,0 +1,6 @@
+name: Console
+version: 1.0-SNAPSHOT
+main: com.nitecell.console.Console
+api-version: 1.13
+authors: [Nitecell]
+description: Console Command (Learning)

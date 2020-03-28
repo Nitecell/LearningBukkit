@@ -14,12 +14,14 @@
         <module name="TestCore" />
         <module name="FamilyFriendly" />
         <module name="MOTD" />
+        <module name="Console" />
         <module name="Freeze" />
         <module name="Kit" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Announcements" target="1.8" />
+      <module name="Console" target="1.8" />
       <module name="CustomInventory" target="1.8" />
       <module name="FamilyFriendly" target="1.8" />
       <module name="Freeze" target="1.8" />

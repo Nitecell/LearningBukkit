@@ -10,17 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4241754a-7b58-467a-98c5-11a42101048e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Announcements_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Announcements/Announcements.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Announcements/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Announcements/src/main/java/com/nitecell/announcements/Announcements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Announcements/src/main/resources/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Announcements/src/main/resources/plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Announcements/src/main/java/com/nitecell/announcements/SettingsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Console/Console.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Console/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Console/src/main/java/com/nitecell/console/Console.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Console/src/main/resources/plugin.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Announcements/src/main/java/com/nitecell/announcements/Announcements.java" beforeDir="false" afterPath="$PROJECT_DIR$/Announcements/src/main/java/com/nitecell/announcements/Announcements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Announcements/target/classes/com/nitecell/announcements/Announcements$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Announcements/target/classes/com/nitecell/announcements/Announcements$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Announcements/target/classes/com/nitecell/announcements/Announcements.class" beforeDir="false" afterPath="$PROJECT_DIR$/Announcements/target/classes/com/nitecell/announcements/Announcements.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +112,32 @@
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$/Announcements" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Console build" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Console" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -361,6 +389,7 @@
       <item itemvalue="Maven.Freeze build" />
       <item itemvalue="Maven.FamilyFriendly build" />
       <item itemvalue="Maven.Announcements build" />
+      <item itemvalue="Maven.Console build" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -375,7 +404,7 @@
       <updated>1585336770205</updated>
       <workItem from="1585336772110" duration="1747000" />
       <workItem from="1585338529886" duration="8426000" />
-      <workItem from="1585352424481" duration="13157000" />
+      <workItem from="1585352424481" duration="15656000" />
     </task>
     <servers />
   </component>
@@ -387,10 +416,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Plugins/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585338513906" />
-    <state x="552" y="178" key="#Project_Structure" timestamp="1585369990820">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1585398596629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585369990820" />
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585398596629" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585339199948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -403,42 +432,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585342183485" />
-    <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1585369989821">
+    <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1585398596011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585369989821" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1585370560028">
+    <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585398596011" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1585398608097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585370560028" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1585370560028">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585398608097" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1585398608097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585370560028" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1585370560028">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585398608097" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1585398608097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585370560028" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1585370560028">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585398608097" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1585398608097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585370560028" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1585370559943">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585398608097" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1585398607982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585370559943" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1585370559943">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585398607982" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1585398607982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585370559943" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1585370559943">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585398607982" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1585398607982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585370559943" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1585370559943">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585398607982" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1585398607982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585370559943" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585398607982" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1585365331436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -447,10 +476,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585336773471" />
-    <state x="342" y="140" key="new project wizard" timestamp="1585368966179">
+    <state x="342" y="140" key="new project wizard" timestamp="1585398361121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="140" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585368966179" />
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585398361121" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585366798408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
