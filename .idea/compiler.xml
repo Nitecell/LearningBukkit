@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CustomInventory" />
+        <module name="Announcements" />
         <module name="Teleport" />
         <module name="Worldstar" />
         <module name="Healer" />
@@ -18,6 +19,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Announcements" target="1.8" />
       <module name="CustomInventory" target="1.8" />
       <module name="FamilyFriendly" target="1.8" />
       <module name="Freeze" target="1.8" />

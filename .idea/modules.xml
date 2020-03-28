@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Announcements/Announcements.iml" filepath="$PROJECT_DIR$/Announcements/Announcements.iml" />
       <module fileurl="file://$PROJECT_DIR$/BasicCommand/BasicCommand.iml" filepath="$PROJECT_DIR$/BasicCommand/BasicCommand.iml" />
       <module fileurl="file://$PROJECT_DIR$/CustomInventory/CustomInventory.iml" filepath="$PROJECT_DIR$/CustomInventory/CustomInventory.iml" />
       <module fileurl="file://$PROJECT_DIR$/FamilyFriendly/FamilyFriendly.iml" filepath="$PROJECT_DIR$/FamilyFriendly/FamilyFriendly.iml" />

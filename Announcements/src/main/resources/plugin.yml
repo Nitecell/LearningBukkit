@@ -1,0 +1,11 @@
+name: Announcements
+version: ${project.version}
+main: com.nitecell.announcements.Announcements
+api-version: 1.13
+authors: [Nitecell]
+description: Announcements Plugin (Learning)
+
+commands:
+  announcements-reload:
+    usage: /<command>
+    description: Reload Announcements Config.
