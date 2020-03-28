@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Freeze:jar">
+    <output-path>$USER_HOME$/Desktop/Testing/plugins</output-path>
+    <root id="archive" name="Freeze.jar">
+      <element id="module-output" name="Freeze" />
+    </root>
+  </artifact>
+</component>

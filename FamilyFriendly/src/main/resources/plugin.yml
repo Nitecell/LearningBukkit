@@ -1,0 +1,6 @@
+name: FamilyFriendly
+version: ${project.version}
+main: com.nitecell.familyfriendly.FamilyFriendly
+api-version: 1.13
+authors: [Nitecell]
+description: No Cursing!

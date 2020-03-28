@@ -1,0 +1,12 @@
+name: Freeze
+version: ${project.version}
+main: com.nitecell.freeze.Freeze
+api-version: 1.13
+authors: [Nitecell]
+description: Freeze (Learning)
+
+commands:
+  freeze:
+    usage: /<command>
+    aliases: [ss]
+    description: Freeze Command

@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BasicCommand/BasicCommand.iml" filepath="$PROJECT_DIR$/BasicCommand/BasicCommand.iml" />
       <module fileurl="file://$PROJECT_DIR$/CustomInventory/CustomInventory.iml" filepath="$PROJECT_DIR$/CustomInventory/CustomInventory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FamilyFriendly/FamilyFriendly.iml" filepath="$PROJECT_DIR$/FamilyFriendly/FamilyFriendly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Freeze/Freeze.iml" filepath="$PROJECT_DIR$/Freeze/Freeze.iml" />
       <module fileurl="file://$PROJECT_DIR$/Healer/Healer.iml" filepath="$PROJECT_DIR$/Healer/Healer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Kit/Kit.iml" filepath="$PROJECT_DIR$/Kit/Kit.iml" />
       <module fileurl="file://$PROJECT_DIR$/LearningBukkit.iml" filepath="$PROJECT_DIR$/LearningBukkit.iml" />
