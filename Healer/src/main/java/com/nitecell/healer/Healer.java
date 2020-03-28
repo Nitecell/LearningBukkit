@@ -11,6 +11,7 @@ public final class Healer extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        Bukkit.getServer().getPluginManager().registerEvents(new HealerListener(), this);
         System.out.println(ChatColor.GREEN + "[Healer] has been enabled.");
     }
 
