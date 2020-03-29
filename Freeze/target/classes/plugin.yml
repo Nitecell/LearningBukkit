@@ -1,5 +1,5 @@
 name: Freeze
-version: 1.0-SNAPSHOT
+version: ${project.version}
 main: com.nitecell.freeze.Freeze
 api-version: 1.13
 authors: [Nitecell]

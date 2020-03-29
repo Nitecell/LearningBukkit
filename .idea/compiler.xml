@@ -1,33 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="CustomInventory" />
-        <module name="Announcements" />
-        <module name="Teleport" />
-        <module name="Worldstar" />
-        <module name="Healer" />
-        <module name="TestCore" />
-        <module name="FamilyFriendly" />
-        <module name="MOTD" />
-        <module name="Console" />
-        <module name="Freeze" />
-        <module name="Kit" />
-      </profile>
-    </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Announcements" target="1.8" />
+      <module name="BraydenBot.main" target="1.8" />
+      <module name="BraydenBot.test" target="1.8" />
       <module name="Console" target="1.8" />
+      <module name="CustomBan" target="1.8" />
       <module name="CustomInventory" target="1.8" />
       <module name="FamilyFriendly" target="1.8" />
       <module name="Freeze" target="1.8" />
       <module name="Healer" target="1.8" />
       <module name="Kit" target="1.8" />
       <module name="MOTD" target="1.8" />
+      <module name="NitePunishments" target="1.8" />
+      <module name="Punishments" target="1.8" />
       <module name="Teleport" target="1.8" />
       <module name="TestCore" target="1.8" />
       <module name="Worldstar" target="1.8" />

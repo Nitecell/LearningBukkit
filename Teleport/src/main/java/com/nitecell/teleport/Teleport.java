@@ -32,6 +32,7 @@ public final class Teleport extends JavaPlugin {
                 p.sendMessage(ChatColor.RED + "Could not find the specified user.");
             }
             p.teleport(target);
+            Bukkit.getServer().getPluginManager().callEvent(new PlayerTeleportEvent(p, target));
             return true;
         }
         if (cmd.getName().equalsIgnoreCase("setspawn")) {
@@ -55,6 +56,7 @@ public final class Teleport extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        Bukkit.getServer().getPluginManager().registerEvents(new EventTester(), this);
         System.out.println(ChatColor.GREEN + "[Teleport] has been enabled.");
     }
 

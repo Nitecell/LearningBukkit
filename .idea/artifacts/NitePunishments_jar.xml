@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="NitePunishments:jar">
+    <output-path>$USER_HOME$/Desktop/Testing/plugins</output-path>
+    <root id="archive" name="NitePunishments.jar">
+      <element id="module-output" name="NitePunishments" />
+    </root>
+  </artifact>
+</component>

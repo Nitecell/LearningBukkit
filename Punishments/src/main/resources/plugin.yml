@@ -1,0 +1,11 @@
+name: Punishments
+version: ${project.version}
+main: com.nitecell.punishments.Punishments
+api-version: 1.13
+authors: [Nitecell]
+description: Punishments Plugin! (Learning)
+
+commands:
+  ban:
+    usage: /<command>
+    description: Ban Command!

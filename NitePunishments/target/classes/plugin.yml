@@ -1,0 +1,12 @@
+name: NitePunishments
+version: ${project.version}
+main: me.nitecell.nitepunishments.NitePunishments
+api-version: 1.13
+authors: [Nitecell]
+description: NitePunishments
+
+commands:
+  kick:
+    usage: /<command>
+    aliases: [boot]
+    description: Kick Command

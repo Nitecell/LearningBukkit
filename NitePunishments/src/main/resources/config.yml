@@ -1,0 +1,5 @@
+default-kick-message: You have been kicked from the server.
+default-ban-message: You have been banned from the server.
+default-kick-reason: The boot has spoken!
+default-ban-reason: The ban hammer has spoken!
+total-kicks: 0
