@@ -9,11 +9,11 @@ import org.bukkit.plugin.Plugin;
 import java.io.File;
 import java.io.IOException;
 
-public class ConfigManager {
+public class PunishmentsManager {
 
-    private ConfigManager() { }
-    static ConfigManager instance = new ConfigManager();
-    public static ConfigManager getInstance() { return instance; }
+    private PunishmentsManager() { }
+    static PunishmentsManager instance = new PunishmentsManager();
+    public static PunishmentsManager getInstance() { return instance; }
 
     FileConfiguration punishments;
     File pfile;
@@ -24,13 +24,13 @@ public class ConfigManager {
             Bukkit.getServer().getLogger().fine("Data Folder did not exist, creating one!");
         }
 
-        pfile = new File(p.getDataFolder(), "pfile.yml");
+        pfile = new File(p.getDataFolder(), "punishments.yml");
         if (!pfile.exists()) {
             try {
                 pfile.createNewFile();
             }
             catch (IOException e) {
-                Bukkit.getServer().getLogger().severe(ChatColor.RED + "Could not create pfile.yml!");
+                Bukkit.getServer().getLogger().severe(ChatColor.RED + "Could not create punishments.yml!");
             }
         }
         punishments = YamlConfiguration.loadConfiguration(pfile);
@@ -43,7 +43,7 @@ public class ConfigManager {
         try {
             punishments.save(pfile);
         } catch (IOException e) {
-            System.out.println(ChatColor.RED + "Could not save pfile.yml!");
+            System.out.println(ChatColor.RED + "Could not save punishments.yml!");
         }
     }
     public void reloadPunishments() {

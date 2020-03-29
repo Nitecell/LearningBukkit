@@ -1,13 +1,13 @@
 package me.nitecell.nitepunishments;
 
 import me.nitecell.nitepunishments.commands.KickCommand;
-import me.nitecell.nitepunishments.managers.ConfigManager;
+import me.nitecell.nitepunishments.managers.PunishmentsManager;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class NitePunishments extends JavaPlugin {
 
-    ConfigManager punishments = ConfigManager.getInstance();
+    PunishmentsManager punishments = PunishmentsManager.getInstance();
 
     @Override
     public void onEnable() {

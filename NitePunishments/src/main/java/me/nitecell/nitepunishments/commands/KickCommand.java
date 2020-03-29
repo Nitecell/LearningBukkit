@@ -1,6 +1,6 @@
 package me.nitecell.nitepunishments.commands;
 
-import me.nitecell.nitepunishments.managers.ConfigManager;
+import me.nitecell.nitepunishments.managers.PunishmentsManager;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -8,15 +8,19 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class KickCommand implements CommandExecutor {
 
-    //private NitePunishments plugin = NitePunishments.getPlugin(NitePunishments.class);
-    ConfigManager punishments = ConfigManager.getInstance();
+    PunishmentsManager punishments = PunishmentsManager.getInstance();
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        int kickid = 0;
-
+        if (!sender.hasPermission("nitepunishments.kick")) {
+            sender.sendMessage(ChatColor.RED + "You do not have permission for this command.");
+            return true;
+        }
         if (args.length == 0) {
             sender.sendMessage(ChatColor.RED + "Not enough arguments.");
             return true;
@@ -26,52 +30,39 @@ public class KickCommand implements CommandExecutor {
             sender.sendMessage(ChatColor.RED + "Specified user could not be found.");
             return true;
         } else {
-            Bukkit.getServer().broadcastMessage(ChatColor.AQUA + "[Debug] Entering else statement in command ");
             String targetuuid = target.getUniqueId().toString();
-            Bukkit.getServer().broadcastMessage(ChatColor.AQUA + "[Debug] Set targetuuid string");
-            kickid = 1; //newKickID();
-            Bukkit.getServer().broadcastMessage(ChatColor.AQUA + "[Debug] newKickID: " + kickid);
-            Bukkit.getServer().broadcastMessage(ChatColor.AQUA + "[Debug] Set kickid=newkickid");
-            //Date date = new Date();
-            //Bukkit.getServer().broadcastMessage(ChatColor.AQUA + "[Debug] Set date = date");
-
-            Bukkit.getServer().broadcastMessage(targetuuid);
-            Bukkit.getServer().broadcastMessage(target.getName());
+            int kickid = newKickID();
+            SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
+            Date date = new Date();
 
             punishments.getPunishments().set("punishments." + targetuuid + ".username", target.getName());
-            Bukkit.getServer().broadcastMessage(ChatColor.AQUA + "[Debug] Set Punishments Username");
             punishments.getPunishments().set("punishments." + targetuuid + ".kicks." + kickid + ".reason", getReason(args));
-            Bukkit.getServer().broadcastMessage(ChatColor.AQUA + "[Debug] Set reason");
-            //punishments.getPunishments().set("punishments." + targetuuid + ".kicks." + kickid + ".time", date);
-            //Bukkit.getServer().broadcastMessage(ChatColor.AQUA + "[Debug] Set date");
+            punishments.getPunishments().set("punishments." + targetuuid + ".kicks." + kickid + ".time", formatter.format(date));
+            punishments.getPunishments().set("punishments." + targetuuid + ".kicks." + kickid + ".location.world", target.getWorld().getName());
             punishments.getPunishments().set("punishments." + targetuuid + ".kicks." + kickid + ".location.x", target.getLocation().getX());
-            Bukkit.getServer().broadcastMessage(ChatColor.AQUA + "[Debug] Set X");
             punishments.getPunishments().set("punishments." + targetuuid + ".kicks." + kickid + ".location.y", target.getLocation().getY());
-            Bukkit.getServer().broadcastMessage(ChatColor.AQUA + "[Debug] Set Y");
             punishments.getPunishments().set("punishments." + targetuuid + ".kicks." + kickid + ".location.z", target.getLocation().getZ());
-            Bukkit.getServer().broadcastMessage(ChatColor.AQUA + "[Debug] Set Z");
             punishments.getPunishments().set("punishments." + targetuuid + ".kicks." + kickid + ".punisher", sender.getName());
-            Bukkit.getServer().broadcastMessage(ChatColor.AQUA + "[Debug] Set Punisher");
             punishments.savePunishments();
-            Bukkit.getServer().broadcastMessage(ChatColor.AQUA + "[Debug] Saved Punishments");
-            target.kickPlayer("You have been kicked!");
-            Bukkit.getServer().broadcastMessage(ChatColor.AQUA + "[Debug] Kicked Player");
+            target.kickPlayer(ChatColor.RED + punishments.getPunishments().getString("punishments." + targetuuid + ".kicks." + kickid + ".reason"));
+            sender.sendMessage(ChatColor.GRAY + "You have successfully kicked " + target.getName() + " from the server.");
+            Bukkit.getServer().broadcastMessage(ChatColor.GREEN + target.getName() + " has been kicked by " + sender.getName());
             return true;
         }
     }
 
-    /**public int newKickID() {
-        Bukkit.getServer().broadcastMessage(ChatColor.AQUA + "[Debug] Entered newKickID");
-        int newid = punishments.getPunishments().getInt("total-kicks") + 1;
-        Bukkit.getServer().broadcastMessage(ChatColor.AQUA + "[Debug] Set newid = punishments total-kicks");
-        punishments.getConfig().set("total-kicks", newid);
-        Bukkit.getServer().broadcastMessage(ChatColor.AQUA + "[Debug] set new newid");
+    public int newKickID() {
+        if (!punishments.getPunishments().contains("stats.total-kicks")) {
+            punishments.getPunishments().set("stats.total-kicks", 0);
+        }
+        int newid = punishments.getPunishments().getInt("stats.total-kicks") + 1;
+        punishments.getPunishments().set("stats.total-kicks", newid);
         return newid;
-    }**/
+    }
 
     public String getReason(String[] args) {
         if (args.length == 1) {
-            return "You have been kicked!";
+            return "The boot has spoken!";
         }
         StringBuilder str = new StringBuilder();
         for (int i = 1; i < args.length; i++) {

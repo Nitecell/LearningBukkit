@@ -10,3 +10,8 @@ commands:
     usage: /<command>
     aliases: [boot]
     description: Kick Command
+
+permissions:
+  nitepunishments.kick:
+    description: This permission gives access to the kick command.
+    default: op
