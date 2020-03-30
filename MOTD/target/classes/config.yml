@@ -1,1 +1,3 @@
-message: Welcome to the Test Server!
+motd:
+  ingame: "&b&oWelcome to the Nitecell Test Server!"
+  server: "&bNitecell Test Server!"

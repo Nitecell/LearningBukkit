@@ -1,8 +1,0 @@
-name: BasicCommand
-main: com.nitecell.basicCommand.Main
-version: 1.0
-
-commands:
-  helloworld:
-    usage: /<command>
-    description: Hello World Command

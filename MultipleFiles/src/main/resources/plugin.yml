@@ -1,0 +1,6 @@
+name: MultipleFiles
+version: ${project.version}
+main: me.nitecell.multiplefiles.MultipleFiles
+api-version: 1.13
+authors: [Nitecell]
+description: Multiple Config Files (Learning)

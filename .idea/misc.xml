@@ -12,9 +12,7 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/CustomInventory/pom.xml" />
         <option value="$PROJECT_DIR$/Healer/pom.xml" />
-        <option value="$PROJECT_DIR$/Worldstar/pom.xml" />
         <option value="$PROJECT_DIR$/MOTD/pom.xml" />
         <option value="$PROJECT_DIR$/Teleport/pom.xml" />
         <option value="$PROJECT_DIR$/Kit/pom.xml" />
@@ -24,6 +22,9 @@
         <option value="$PROJECT_DIR$/Console/pom.xml" />
         <option value="$PROJECT_DIR$/Punishments/pom.xml" />
         <option value="$PROJECT_DIR$/NitePunishments/pom.xml" />
+        <option value="$PROJECT_DIR$/MultipleFiles/pom.xml" />
+        <option value="$PROJECT_DIR$/Econite/pom.xml" />
+        <option value="$PROJECT_DIR$/Ignore/pom.xml" />
       </list>
     </option>
   </component>

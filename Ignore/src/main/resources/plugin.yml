@@ -1,0 +1,11 @@
+name: Ignore
+version: ${project.version}
+main: me.nitecell.ignore.Ignore
+api-version: 1.13
+authors: [Nitecell]
+description: Ignore
+
+commands:
+  ignore:
+    usage: /<command> <player.
+    description: Ignore a player.

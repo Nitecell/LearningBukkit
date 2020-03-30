@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Announcements/Announcements.iml" filepath="$PROJECT_DIR$/Announcements/Announcements.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BasicCommand/BasicCommand.iml" filepath="$PROJECT_DIR$/BasicCommand/BasicCommand.iml" />
       <module fileurl="file://$PROJECT_DIR$/Console/Console.iml" filepath="$PROJECT_DIR$/Console/Console.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CustomInventory/CustomInventory.iml" filepath="$PROJECT_DIR$/CustomInventory/CustomInventory.iml" />
       <module fileurl="file://$PROJECT_DIR$/FamilyFriendly/FamilyFriendly.iml" filepath="$PROJECT_DIR$/FamilyFriendly/FamilyFriendly.iml" />
       <module fileurl="file://$PROJECT_DIR$/Freeze/Freeze.iml" filepath="$PROJECT_DIR$/Freeze/Freeze.iml" />
       <module fileurl="file://$PROJECT_DIR$/Healer/Healer.iml" filepath="$PROJECT_DIR$/Healer/Healer.iml" />
@@ -15,7 +13,6 @@
       <module fileurl="file://$PROJECT_DIR$/NitePunishments/NitePunishments.iml" filepath="$PROJECT_DIR$/NitePunishments/NitePunishments.iml" />
       <module fileurl="file://$PROJECT_DIR$/Punishments/Punishments.iml" filepath="$PROJECT_DIR$/Punishments/Punishments.iml" />
       <module fileurl="file://$PROJECT_DIR$/Teleport/Teleport.iml" filepath="$PROJECT_DIR$/Teleport/Teleport.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Worldstar/Worldstar.iml" filepath="$PROJECT_DIR$/Worldstar/Worldstar.iml" />
     </modules>
   </component>
 </project>

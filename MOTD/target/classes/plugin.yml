@@ -1,5 +1,5 @@
 name: MOTD
-version: 1.0-SNAPSHOT
+version: ${project.version}
 main: com.nitecell.motd.MOTD
 api-version: 1.13
 authors: [Nitecell]
@@ -12,8 +12,24 @@ commands:
   setmotd:
     usage: /<command>
     description: Set the MOTD of the server.
+  setservermotd:
+    usage: /<command>
+    description: Set the MOTD for the Server List
 
 permissions:
-  motd.set:
+  motd.*:
+    description: Use all MOTD Commands
+    children:
+      motd.ingame.check: true
+      motd.ingame.set: true
+      motd.server.set: true
+    default: op
+  motd.ingame.check:
+    description: Check the MOTD
+    default: true
+  motd.ingame.set:
+    description: Uset he SetMOTD Command to change the MOTD.
+    default: op
+  motd.server.set:
     description: Uset he SetMOTD Command to change the MOTD.
     default: op

@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Healer" />
+        <module name="Console" />
+        <module name="Econite" />
+        <module name="MultipleFiles" />
+        <module name="Punishments" />
+        <module name="MOTD" />
+        <module name="Announcements" />
+        <module name="NitePunishments" />
+        <module name="Teleport" />
+        <module name="FamilyFriendly" />
+        <module name="Kit" />
+        <module name="Freeze" />
+        <module name="Ignore" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Announcements" target="1.8" />
       <module name="BraydenBot.main" target="1.8" />

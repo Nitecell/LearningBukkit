@@ -1,0 +1,6 @@
+name: Econite
+version: ${project.version}
+main: me.nitecell.econite.Econite
+api-version: 1.13
+authors: [Nitecell]
+description: Basic Eco Plugin (Learning)
