@@ -10,61 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4241754a-7b58-467a-98c5-11a42101048e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Econite/Econite.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Econite/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Econite/src/main/java/me/nitecell/econite/Econite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Econite/src/main/resources/plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ignore/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ignore/src/main/java/me/nitecell/ignore/Ignore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ignore/src/main/java/me/nitecell/ignore/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ignore/src/main/java/me/nitecell/ignore/PlayerChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ignore/src/main/resources/plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultipleFiles/MultipleFiles.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultipleFiles/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultipleFiles/src/main/java/me/nitecell/multiplefiles/ConfigFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultipleFiles/src/main/java/me/nitecell/multiplefiles/MultipleFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultipleFiles/src/main/resources/plugin.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_15_2_R0_1_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_15_2_R0_1_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicCommand/BasicCommand.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicCommand/src/com/nitecell/basicCommand/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicCommand/src/plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CustomInventory/CustomInventory.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CustomInventory/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CustomInventory/src/main/java/com/nitecell/custominventory/CustomInventory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CustomInventory/src/main/resources/plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CustomInventory/target/classes/com/nitecell/custominventory/CustomInventory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CustomInventory/target/classes/plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Healer/target/classes/com/nitecell/healer/Healer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Healer/target/classes/com/nitecell/healer/HealerListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Healer/target/classes/plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOTD/src/main/java/com/nitecell/motd/MOTD.java" beforeDir="false" afterPath="$PROJECT_DIR$/MOTD/src/main/java/com/nitecell/motd/MOTD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOTD/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/MOTD/src/main/resources/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOTD/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/MOTD/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOTD/target/classes/com/nitecell/motd/MOTD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOTD/target/classes/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOTD/target/classes/plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NitePunishments/src/main/java/me/nitecell/nitepunishments/commands/BanCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/NitePunishments/src/main/java/me/nitecell/nitepunishments/commands/BanCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NitePunishments/target/classes/META-INF/NitePunishments.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NitePunishments/target/classes/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NitePunishments/target/classes/me/nitecell/nitepunishments/NitePunishments.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NitePunishments/target/classes/me/nitecell/nitepunishments/commands/BanCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NitePunishments/target/classes/me/nitecell/nitepunishments/commands/KickCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NitePunishments/target/classes/me/nitecell/nitepunishments/commands/UnbanCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NitePunishments/target/classes/me/nitecell/nitepunishments/listeners/BanListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NitePunishments/target/classes/me/nitecell/nitepunishments/managers/PunishmentsManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NitePunishments/target/classes/plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NitePunishments/target/classes/punishments.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worldstar/Worldstar.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worldstar/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worldstar/src/main/java/com/nitecell/worldstar/Worldstar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worldstar/src/main/resources/plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worldstar/target/classes/com/nitecell/worldstar/Worldstar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worldstar/target/classes/plugin.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +79,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/forge-1.8.9-11.15.1.1722-universal.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -160,6 +109,7 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="Spigot" type="JarApplication">
@@ -617,6 +567,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.BraydenBot build" />
       <item itemvalue="JAR Application.Spigot" />
       <item itemvalue="Maven.CustomInventory build" />
       <item itemvalue="Maven.Healer build" />
@@ -632,7 +583,6 @@
       <item itemvalue="Maven.Punishments build" />
       <item itemvalue="Maven.CustomBan build" />
       <item itemvalue="Maven.NitePunishments build" />
-      <item itemvalue="Gradle.BraydenBot build" />
       <item itemvalue="Maven.MultipleFiles build" />
       <item itemvalue="Maven.Econite build" />
       <item itemvalue="Maven.Ignore build" />
@@ -650,7 +600,8 @@
       <updated>1585336770205</updated>
       <workItem from="1585336772110" duration="1747000" />
       <workItem from="1585338529886" duration="8426000" />
-      <workItem from="1585352424481" duration="87762000" />
+      <workItem from="1585352424481" duration="88362000" />
+      <workItem from="1585876364498" duration="144000" />
     </task>
     <servers />
   </component>
@@ -698,38 +649,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585448989454" />
-    <state width="1877" height="385" key="GridCell.Tab.0.bottom" timestamp="1585539423348">
+    <state width="1877" height="385" key="GridCell.Tab.0.bottom" timestamp="1585557081557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585539423348" />
-    <state width="1877" height="385" key="GridCell.Tab.0.center" timestamp="1585539423348">
+    <state width="1877" height="385" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585557081557" />
+    <state width="1877" height="385" key="GridCell.Tab.0.center" timestamp="1585557081557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585539423348" />
-    <state width="1877" height="385" key="GridCell.Tab.0.left" timestamp="1585539423347">
+    <state width="1877" height="385" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585557081557" />
+    <state width="1877" height="385" key="GridCell.Tab.0.left" timestamp="1585557081557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585539423347" />
-    <state width="1877" height="385" key="GridCell.Tab.0.right" timestamp="1585539423348">
+    <state width="1877" height="385" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585557081557" />
+    <state width="1877" height="385" key="GridCell.Tab.0.right" timestamp="1585557081557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585539423348" />
-    <state width="1877" height="385" key="GridCell.Tab.1.bottom" timestamp="1585539423348">
+    <state width="1877" height="385" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585557081557" />
+    <state width="1877" height="385" key="GridCell.Tab.1.bottom" timestamp="1585557081557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585539423348" />
-    <state width="1877" height="385" key="GridCell.Tab.1.center" timestamp="1585539423348">
+    <state width="1877" height="385" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585557081557" />
+    <state width="1877" height="385" key="GridCell.Tab.1.center" timestamp="1585557081557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585539423348" />
-    <state width="1877" height="385" key="GridCell.Tab.1.left" timestamp="1585539423348">
+    <state width="1877" height="385" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585557081557" />
+    <state width="1877" height="385" key="GridCell.Tab.1.left" timestamp="1585557081557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585539423348" />
-    <state width="1877" height="385" key="GridCell.Tab.1.right" timestamp="1585539423348">
+    <state width="1877" height="385" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585557081557" />
+    <state width="1877" height="385" key="GridCell.Tab.1.right" timestamp="1585557081557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585539423348" />
+    <state width="1877" height="385" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585557081557" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1585450519758">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -750,10 +701,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585436245194" />
-    <state x="342" y="140" key="new project wizard" timestamp="1585539538569">
+    <state x="342" y="140" key="new project wizard" timestamp="1585876502090">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="140" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585539538569" />
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585876502090" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585528615540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
